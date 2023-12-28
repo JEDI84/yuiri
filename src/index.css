@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}

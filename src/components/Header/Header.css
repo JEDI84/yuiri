@@ -1,0 +1,8 @@
+.head {
+    background-color: blue;
+    border-bottom: 3px solid black; /* Specify bottom border width, style, and color */
+
+    height: 70px;
+    width: 100vw;
+
+}
