@@ -46,7 +46,7 @@ const Menu = () => {
       >
         <MenuItem onClick={handleClose}>
           <Link
-            to="/"
+            to="/Main"
             style={{
               textDecoration: "none",
               color: "#AC8B40",
@@ -59,7 +59,7 @@ const Menu = () => {
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <Link
-            to="/about"
+            to="/About"
             style={{
               textDecoration: "none",
               color: "#AC8B40",
@@ -72,7 +72,7 @@ const Menu = () => {
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <Link
-            to="/contact"
+            to="/Contact"
             style={{
               textDecoration: "none",
               color: "#AC8B40",
@@ -81,6 +81,19 @@ const Menu = () => {
             }}
           >
             Contact
+          </Link>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <Link
+            to="/Calendar"
+            style={{
+              textDecoration: "none",
+              color: "#AC8B40",
+              padding: "20px",
+              fontSize: "25px",
+            }}
+          >
+            Calendar
           </Link>
         </MenuItem>
       </Popover>

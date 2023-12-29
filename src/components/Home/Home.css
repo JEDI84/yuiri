@@ -1,0 +1,7 @@
+.back {
+  background-color: rgb(102, 255, 0); 
+  background-image: url('/shark.png'); 
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
